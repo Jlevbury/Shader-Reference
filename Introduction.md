@@ -450,7 +450,7 @@ In Unity's Shader Graph, these texture maps can be imported as properties and th
 
 When certain texture maps are unavailable or too resource-intensive, substituting them with simpler maps or uniform values can help maintain performance while achieving a similar visual effect, albeit with less detail or realism.
 
-## Susbtituting maps 
+## Substituting maps 
 In shader development, a mask map is a texture that uses its channels (usually RGB or RGBA) to store different types of data compactly. Each channel of the mask map can represent a different property, such as metallic, roughness, or ambient occlusion. The use of mask maps is a common optimization technique, especially in Physically Based Rendering (PBR) workflows, as it reduces the number of separate texture samples needed.
 
 ### Substituting a Mask Map
